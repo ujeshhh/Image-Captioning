@@ -3,7 +3,7 @@ import gradio as gr
 from PIL import Image
 
 # Set up Gemini API key
-genai.configure(api_key="AIzaSyDnx_qUjGTFG1pv1otPUhNt_bGGv14aMDI")  # Replace with your API key
+genai.configure(api_key="Your_Api_Key")  # Replace with your API key
 
 def generate_caption(image):
     """Generate a caption for the uploaded image using Google Gemini Pro Vision API."""
